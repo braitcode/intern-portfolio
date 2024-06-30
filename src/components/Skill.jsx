@@ -7,7 +7,9 @@ import img4 from '../assets/icons/Webflow Development.png'
 const Skill = () => {
   return (
     <div>
-        <div className=" w-full h-[906.33px] p-8 flex flex-col justify-center gap-[106px]">
+        <div className=" xl:w-full h-[906.33px] p-8 flex flex-col justify-center gap-[106px]">
+            <div className="flex flex-col gap-24 xl:w-[100%]">
+
             <div className="w-[1024px] h-[130.33px] gap-[21.33px]">
                 <p className='font-[Roboto] font-semibold text-[21.33px]'>My Skills</p>
                 <h1 className='font-[Roboto] text-[4rem] font-bold'>My Expertise</h1>
@@ -42,6 +44,7 @@ const Skill = () => {
                     </div>
                 </div>
                 
+            </div>
             </div>
 
         </div>
