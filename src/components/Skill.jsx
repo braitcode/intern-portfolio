@@ -7,7 +7,7 @@ import img4 from '../assets/icons/Webflow Development.png'
 const Skill = () => {
   return (
     <div>
-        <div className="overflow-hidden xl:w-full xl:h-[100vh]  p-8 xl:flex xl:flex-col xl:justify-center gap-[106px]">
+        <div className="overflow-hidden xl:w-full xl:h-[100vh] xl:p-8 p-6 xl:flex xl:flex-col xl:justify-center gap-[106px]">
               <div className="container xl:flex xl:flex-col md:flex md:flex-col md:justify-center  gap-24 xl:w-[100%]">
 
                   <div className="xl:w-[1024px] md:w-full xl:h-[130.33px] xl:gap-[21.33px] md:flex md:flex-col md:justify-center ">
