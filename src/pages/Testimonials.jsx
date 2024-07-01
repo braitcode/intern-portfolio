@@ -16,7 +16,7 @@ const Testimonials = () => {
                   </div>
             </div>
             
-            <div className=" xl:flex xl:flex-row xl:justify-center xl:items-center flex flex-col gap-8 w-full xl:gap-10">
+            <div className=" xl:flex xl:flex-row xl:justify-center xl:items-center xl:justify-between flex flex-col gap-8 w-full xl:gap-10">
                 <div className="xl:w-[400px] xl:h-[366.26px] p-11 flex flex-col gap-10 border border-[#006B6A] rounded-md">
                     <div className="">
                     <img src={stars} alt="" className='w-[154px.67px] h-[25.19px]' />
