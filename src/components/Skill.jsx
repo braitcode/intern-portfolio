@@ -16,28 +16,28 @@ const Skill = () => {
                   </div>
                   <div className="xl:flex xl:flex-row xl:justify-center xl:gap-10 xl:w-[100%] md:w-full md:flex md:justify-center md:items-center flex flex-col gap-8">
                     
-                      <div className="bg-[#F5FCFF] w-[340.33px] md:w-full h-[3650x] rounded-md p-2 border-b-4 border-[#5E3BEE]">
+                      <div className="bg-[#F5FCFF] w-[340.33px] md:w-full h-[3650x] rounded-md shadow-md p-2 border-b-4 border-[#5E3BEE]">
                           <img src={img1} alt="" className='w-[79.33px] h-[79.33px] mt-4' />
                           <div className="w-[341.33px] h-[194.33px] md:w-full">
                               <h3 className='text-[28px] font-bold text-[#282938] my-4 font-[Roboto]'>Responsive Design</h3>
                               <p className='font-[Roboto] font-normal leading-[1.5rem] md:leading-[2.5rem] md:w-[90%] xl:w-[90%] xl:text-[18px] md:text-[40px]  text-[#1C1E53]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                           </div>
                       </div>
-                      <div className="bg-[#F5FCFF] w-[340.33px] md:w-full h-[350px] rounded-md p-2">
+                      <div className="bg-[#F5FCFF] w-[340.33px] md:w-full h-[350px] shadow-md rounded-md p-2">
                           <img src={img2} alt="" className='w-[79.33px] h-[79.33px] mt-4' />
                           <div className="w-[341.33px] h-[194.33px] md:w-full">
                               <h3 className='text-[28px] font-bold text-[#282938] my-4 font-[Roboto]'>Front-End Frameworks</h3>
                               <p className='font-[Roboto] font-normal leading-[1.5rem] md:leading-[2.5rem] md:w-[90%] xl:w-[90%] xl:text-[18px] md:text-[40px]  text-[#1C1E53]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                           </div>
                       </div>
-                      <div className="bg-[#F5FCFF] w-[340.33px] md:w-full h-[350px] rounded-md p-2">
+                      <div className="bg-[#F5FCFF] w-[340.33px] md:w-full h-[350px] shadow-md rounded-md p-2">
                           <img src={img3} alt="" className='w-[79.33px] h-[79.33px] mt-4' />
                           <div className="w-[341.33px] h-[194.33px] md:w-full">
                               <h3 className='text-[28px] font-bold text-[#282938] my-4 font-[Roboto]'>Testing and Debugging</h3>
                               <p className='font-[Roboto] font-normal leading-[1.5rem] md:leading-[2.5rem] md:w-[90%] xl:w-[90%] xl:text-[18px] md:text-[40px]  text-[#1C1E53]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
                           </div>
                       </div>
-                      <div className="bg-[#F5FCFF] w-[340.33px] md:w-full h-[350px] rounded-md p-2">
+                      <div className="bg-[#F5FCFF] w-[340.33px] md:w-full h-[350px] shadow-md rounded-md p-2">
                           <img src={img4} alt="" className='w-[79.33px] h-[79.33px] mt-4' />
                           <div className="w-[341.33px] h-[194.33px] md:w-full">
                               <h3 className='text-[28px] font-bold text-[#282938] my-4 font-[Roboto]'>Cloud Services</h3>
