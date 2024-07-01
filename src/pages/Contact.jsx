@@ -5,30 +5,30 @@ import Form from 'react-bootstrap/Form';
 const Contact = () => {
   return (
     <div>
-        <div className="w-full h-[1315px] flex flex-col gap-16 justify-center items-center">
+        <div className="overflow-hidden w-full h-[1315px] flex flex-col gap-16 justify-center items-center">
             <div className="gap-4 w-[1024px] flex flex-col justify-center items-center">
                 <p className='font-[Roboto] font-semibold text-[21.33px]'>Get In Touch</p>
                 <h1 className='font-[Roboto] font-bold text-[64px] text-[#282938]'>Contact Me</h1>
-                <p className='font-[Roboto] text-[24px] text-[#1C1E53]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <p className='font-[Roboto] xl:text-[24px] text-[#1C1E53]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>
             
-            <div class='w-[1024px] flex flex-col gap-6'>
-                  <Form.Group className="mb-3 flex justify-center gap-8" controlId="exampleForm.ControlInput1">
-                    <div className="flex flex-col w-[50%] gap-2">
+            <div class='xl:w-[1024px] xl:flex xl:flex-col xl:gap-6 flex flex-col gap-4 '>
+                  <Form.Group className="mb-3 xl:flex xl:flex-row xl:justify-center xl:gap-8 flex flex-col gap-6" controlId="exampleForm.ControlInput1">
+                    <div className="xl:flex xl:flex-col xl:w-[50%] gap-2">
                       <Form.Label className='font-[Roboto] text-[21.33px]'>First Name</Form.Label>
-                      <Form.Control type="text" placeholder="" className='border border-black rounded-md'/>
+                      <Form.Control type="text" placeholder="" className='w-[100%] border border-black rounded-md'/>
                     </div>
-                    <div className="flex flex-col w-[50%] gap-2">
+                    <div className="xl:flex xl:flex-col xl:w-[50%] gap-2">
                       <Form.Label className='font-[Roboto] text-[21.33px]'>Last Name</Form.Label>
-                      <Form.Control type="text" placeholder="" className='border border-black rounded-md'/>
+                      <Form.Control type="text" placeholder="" className='w-[100%] border border-black rounded-md'/>
                     </div>
                   </Form.Group>
-                  <Form.Group className="mb-3 flex justify-center gap-8" controlId="exampleForm.ControlInput1">
-                    <div className="flex flex-col w-[50%] gap-2">
+                  <Form.Group className="mb-3 xl:flex xl:flex-row xl:justify-center xl:gap-8 flex flex-col gap-6" controlId="exampleForm.ControlInput1">
+                    <div className="flex flex-col xl:w-[50%] gap-2">
                       <Form.Label className='font-[Roboto] text-[21.33px]'>Email</Form.Label>
-                      <Form.Control type="email" placeholder="" className='border border-black rounded-md'/>
+                      <Form.Control type="email" placeholder="" className='w-[100%] border border-black rounded-md'/>
                     </div>
-                    <div className="flex flex-col w-[50%] gap-2">
+                    <div className="flex flex-col xl:w-[50%] gap-2">
                       <Form.Label className='font-[Roboto] text-[21.33px]'>Phone Number</Form.Label>
                       <Form.Control type="text" placeholder="" className='border border-black rounded-md'/>
                     </div>
