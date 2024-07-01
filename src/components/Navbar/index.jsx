@@ -44,6 +44,7 @@ const Navbar = () => {
               ))
             }
         </div>
+        
         <div className="nav__buttons__group">
           <Button className='btn btn__primary' variant="outline-primary">Contact Me</Button>
           <FaBarsStaggered className="menu" onClick={()=>setShowSideBar(!showSideBar)}/>

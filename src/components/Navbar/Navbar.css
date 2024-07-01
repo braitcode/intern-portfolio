@@ -83,6 +83,17 @@
     user-select: none;
     cursor: pointer;
 }
+.nav__buttons__group .btn{
+  color: #5E3BEE;
+  padding: 10px 20px; 
+  border: 1px #5E3BEE solid; 
+  border-radius: 5px; 
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  cursor: pointer; 
+  outline: 2px solid transparent; 
+  transition: outline-color 0.3s ease;
+}
 
 @media (max-width: 900px){
     .navbar__container{
